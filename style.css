@@ -1,13 +1,19 @@
 /* GENERAL */
 * { 
     padding :0;
+    margin:0;
 }
 
 /* NAVIGATION PANE */
 
+
 /* FORM HEADING  */
+body {
+    background-color: #E3FDFF;
+
+}
 h1 {
-    background-color: #6B2737;;
+    background-color: #b5cbba;
     font-size: 300%;
     font-family: 'Merriweather', serif;
     font-weight: bold;
@@ -15,78 +21,74 @@ h1 {
     text-align: center;
     letter-spacing: 0.2em;
     ;
-    color:#fff;
+    color:#900202;
     margin: 20px 370px 0 370px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 h2 {
     font-family: 'Mulish', sans-serif;
-    text-align: center;
+    text-align: left;
     font-size: 100%;
     margin-bottom: 0;
-    
+    color: #900202;  
+   
 }
 h2.intro {
-    background-color: #EDCBB1;
+    background-color: #E3FDFF;
     margin-left: 370px;
     margin-right: 370px;
     margin-top: 0;
     padding-top: 50px;
 }
 
+
 /* FORM */
 .form {
     font-family: 'Mulish', sans-serif;
-    text-align: center;
+    text-align: left;
     height: 500px;
-    padding-top: 100px;
-    background-color: #EDCBB1;
+    padding-top: 50px;
+    background-color: #E3FDFF;
     margin-left: 370px;
     margin-right: 370px;
-   
 }
-
 input { 
     width: 700px;
     height: 50px;
     margin-top: 5px;
-    margin-bottom: 5px;
-    
+    margin-bottom: 5px;  
 }
 label {
+    line-height: 1.6em;
     font-weight: bold;
-    color:  #6B2737;
-
-
+    color: #900202;
+    margin-right: 20px;
+    
 }
 input.bday {
-    width: 100px;
-}
-label.email-label {
-    margin-right: 20px;
-    padding-right: 20px;
-}
-input.radio{
-    width: 20px;
-  
+    width: 220px;
+    margin-right: 12px;
 }
 ::placeholder {
     font-style: italic;
     padding-left: 5px;
 }
+
+
+/* SUBMIT BUTTON */
 .button{
     font-family: 'Merriweather', serif;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 150%;
-    background-color: #6B2737;
+    background-color: #900202;
     color: #fff;
     width: 200px;
     height: 50px;
     margin-top: 20px;
     padding:5px;
-    border: 1px solid black;
+    border: 1px solid  #b5cbba;
     border-radius: 5px;
 }
 .button:hover {
@@ -96,12 +98,50 @@ input.radio{
 }
 
 .button:active {
-    font-size: 40px;
+    font-size: 30px;
     transition: font-size .1s ease-in-out;
 
 }
 
+/* RADIO BUTTON */
+input.radio{
+    width: 20px;
+    float:left;
+    padding-top: 5px;
+    padding-left: 100px;
+}
+
+/* PRIVACY AND LINKS */
+h2.terms {
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
 .privacy { 
     background-color: #EDCBB1;
+   
+}
+a.terms:link {
+    color: #b5cbba;
+    text-decoration: none;
+}
+  
+a.terms:visited {
+    text-decoration: none;
+}
+  
+a.terms:hover {
+    text-decoration: underline;
+    color: #900202;
+}
+  
+a.terms:active {
+    color: #900202;
+    text-decoration: underline;
+}
 
+/* AM MUTAT FOOTERUL SA NU SE OVERLAY CU PRIVACY NOTICE */
+/* FOOTER */
+footer {
+    margin-top: 200px;
 }
