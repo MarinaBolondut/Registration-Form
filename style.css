@@ -26,7 +26,7 @@
   
 
   .navbar a:hover {
-    background-color: #ddd;
+    background-color: #b5cbba;
     color: black;
   }
   
@@ -119,6 +119,7 @@ input.bday {
     padding:5px;
     border: 1px solid  #b5cbba;
     border-radius: 5px;
+    letter-spacing: 2px;
 }
 .button:hover {
     cursor: pointer;
@@ -173,5 +174,10 @@ a.terms:active {
 /* FOOTER */
 footer {
     margin-top: 200px;
+    background-color: #B5ccba;
+    padding: 20px 20px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    line-height: 30px;
 
 }
