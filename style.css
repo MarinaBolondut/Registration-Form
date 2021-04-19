@@ -139,6 +139,8 @@ input.radio{
     float:left;
     padding-top: 5px;
     padding-left: 100px;
+    margin-right: 5px;
+    
 }
 
 /* PRIVACY AND LINKS */
@@ -170,9 +172,11 @@ a.terms:active {
     text-decoration: underline;
 }
 
+
 /* AM MUTAT FOOTERUL SA NU SE OVERLAY CU PRIVACY NOTICE */
 /* FOOTER */
 footer {
+    display: block;
     margin-top: 200px;
     background-color: #B5ccba;
     padding: 20px 20px;
@@ -180,4 +184,16 @@ footer {
     font-weight: bold;
     line-height: 30px;
 
+}
+
+.search-input{
+    width: 200px;
+    height: 30px;
+}
+
+.search-button {
+    width: 34px;
+    height: 34px;
+    background-color: #900202;
+    color: #ffffff;
 }
